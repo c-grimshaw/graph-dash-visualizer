@@ -6,13 +6,9 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "dash-mantine-components>=2.0.0",
-    "dash>=3.0.4",
+    "dash>=3.1.0",
     "dash-iconify>=0.1.0",
-    "pandas>=2.0.0",
-    "numpy>=1.24.0",
-    "plotly>=5.0.0",
     "dash-cytoscape>=0.3.0",
     "networkx>=3.0.0",
-    "pyparsing>=3.0.0",
-    "py2neo>=2021.2.3",
+    "grand-cypher>=1.0.0",
 ]

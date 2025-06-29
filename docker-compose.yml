@@ -1,0 +1,20 @@
+services:
+  graph-dash-visualizer:
+    build: .
+    ports:
+      - "8050:8050"
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /app
+          ignore:
+            - .venv/
+            - __pycache__/
+            - .git/
+            - .gitignore
+            - README.md
+            - uv.lock
+
+        - action: rebuild
+          path: ./pyproject.toml 

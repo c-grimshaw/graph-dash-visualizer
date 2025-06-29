@@ -1,0 +1,17 @@
+[
+  {"id": "a", "name": "Charlie", "age": 35, "type": "Person", "role": "Tech Lead", "department": "Engineering"},
+  {"id": "b", "name": "Taylor", "age": 28, "type": "Person", "role": "Developer", "department": "Engineering"},
+  {"id": "c", "name": "Emilie", "age": 32, "type": "Person", "role": "Product Manager", "department": "Product"},
+  {"id": "f", "name": "Alex", "age": 29, "type": "Person", "role": "Designer", "department": "Design"},
+  {"id": "g", "name": "Jordan", "age": 26, "type": "Person", "role": "Developer", "department": "Engineering"},
+  {"id": "h", "name": "Sam", "age": 31, "type": "Person", "role": "Data Scientist", "department": "Data"},
+  {"id": "d", "name": "Project Alpha", "type": "Project", "status": "Active", "priority": "High"},
+  {"id": "i", "name": "Project Beta", "type": "Project", "status": "Planning", "priority": "Medium"},
+  {"id": "j", "name": "Dashboard Redesign", "type": "Project", "status": "Complete", "priority": "Low"},
+  {"id": "e", "name": "AI Platform", "type": "Technology", "category": "Machine Learning", "version": "2.1"},
+  {"id": "k", "name": "React", "type": "Technology", "category": "Frontend", "version": "18.2"},
+  {"id": "l", "name": "PostgreSQL", "type": "Technology", "category": "Database", "version": "15.0"},
+  {"id": "m", "name": "Python", "type": "Technology", "category": "Language", "version": "3.11"},
+  {"id": "n", "name": "Engineering Team", "type": "Organization", "size": 8, "budget": 500000},
+  {"id": "o", "name": "Product Team", "type": "Organization", "size": 3, "budget": 200000}
+] 

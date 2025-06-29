@@ -1,0 +1,6 @@
+MATCH (n) RETURN n
+MATCH (n)-[r]->(m) RETURN n.name, m.name, r
+MATCH (n)-[r:WORKS_WITH]->(m) RETURN n.name, m.name, r.since
+MATCH (n {type: "Person"}) RETURN n.name, n.age, n.department
+MATCH (n)-[r]->(m) WHERE n.type = "Person" RETURN n.name, r, m.name
+DELETE ALL 
